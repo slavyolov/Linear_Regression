@@ -1,11 +1,14 @@
 1. y = ax + b (Equation of a straight line)
-
+    
+    https://content.byui.edu/file/b8b83119-9acc-4a7b-bc84-efacf9043998/1/Math-2-11-2.html#WS2
     https://www.youtube.com/watch?v=vkTXDGpzy3U
+    https://www.youtube.com/watch?v=w-zu2iR7cr8
 
     WHERE :
       a == slope (https://en.wikipedia.org/wiki/Slope)
           * In mathematics, the "slope" or "gradient" of a line is a number that describes both the 'direction' and the 'steepness' of the line
           * Slope is calculated by finding the ratio of the "vertical change" to the "horizontal change" between (any) two distinct points on a line
+                ** p1 (1,4), p2 (3,7) ==> (7-4) / (3-1) == 1.5 (this is the slope)
           * The 'steepness', incline, or grade of a line is measured by the absolute value of the slope. 
             A slope with a greater absolute value indicates a steeper line.
           * The direction of a line is either increasing, decreasing, horizontal or vertical. 
@@ -14,4 +17,16 @@
                 ** If a line is horizontal the slope is zero. This is a constant function.
                 ** If a line is vertical the slope is undefined (see below).
       b == y-intercept
+          * the y-intercept is the point where the line crosses the y coordinate
       x,y == are holding the place of coordinates (x,y) of any point that lies on the line (they stay as a variables) 
+      
+     
+     https://towardsdatascience.com/mathematics-for-machine-learning-linear-regression-least-square-regression-de09cf53757c
+     Once we get the equation of a straight line from 2 points in space in y = mx + b format, we can use the same equation to predict 
+     the points at different values of x which result in a straight line.
+     
+     In linear regression fashion : x is predictor column while y is the outcome (what we want to predict).
+     So given that slope is 6 and the intercept is 2 we are goint to predict for :
+        x = 1 => 8 (y = ax + b OR y = 6*1 + 2)
+        x = 2 => 14 (y = 6*2 + 2)
+        x = 10 => 62
