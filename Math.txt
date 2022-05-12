@@ -1,0 +1,14 @@
+1. y = ax + b (Equation of a straight line)
+    WHERE :
+      a == slope (https://en.wikipedia.org/wiki/Slope)
+          * In mathematics, the "slope" or "gradient" of a line is a number that describes both the 'direction' and the 'steepness' of the line
+          * Slope is calculated by finding the ratio of the "vertical change" to the "horizontal change" between (any) two distinct points on a line
+          * The 'steepness', incline, or grade of a line is measured by the absolute value of the slope. 
+            A slope with a greater absolute value indicates a steeper line.
+          * The direction of a line is either increasing, decreasing, horizontal or vertical. 
+                ** A line is increasing if it goes up from left to right. The slope is positive, i.e. m > 0
+                ** A line is decreasing if it goes down from left to right. The slope is negative, i.e. m < 0
+                ** If a line is horizontal the slope is zero. This is a constant function.
+                ** If a line is vertical the slope is undefined (see below).
+      b == y-intercept
+      x,y == are holding the place of coordinates (x,y) of any point that lies on the line (they stay as a variables) 
