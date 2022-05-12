@@ -1,4 +1,7 @@
 1. y = ax + b (Equation of a straight line)
+
+    https://www.youtube.com/watch?v=vkTXDGpzy3U
+
     WHERE :
       a == slope (https://en.wikipedia.org/wiki/Slope)
           * In mathematics, the "slope" or "gradient" of a line is a number that describes both the 'direction' and the 'steepness' of the line
